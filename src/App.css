@@ -1,0 +1,26 @@
+/* start navbar */
+.nav{
+    background-color: rgb(255, 115, 0);
+}
+/* End navbar */
+/* start carousel hero */
+.slid__item img{
+    width: 100%;
+    height: calc(100vh - 62px);
+    object-fit: cover;
+}
+.slid__item::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 44, 155, 0.317);
+}
+/* end carousel hero */
+/* Start Cards */
+.card__image{
+    width: 80%;
+}
+/* End Cards */
